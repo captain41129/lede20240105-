@@ -53,8 +53,8 @@ jobs:
         rm -f ./.config*
         touch ./.config
         cat >> .config <<EOF
-        CONFIG_MODULES=y
-        CONFIG_HAVE_DOT_CONFIG=y
+        	CONFIG_MODULES=y
+        	CONFIG_HAVE_DOT_CONFIG=y
         CONFIG_HOST_OS_LINUX=y
         CONFIG_TARGET_x86=y
         CONFIG_TARGET_x86_64=y
