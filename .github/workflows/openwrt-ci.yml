@@ -91,7 +91,7 @@ jobs:
           CONFIG_DEFAULT_firewall=y
           CONFIG_DEFAULT_fstools=y
           CONFIG_DEFAULT_htop=y
-          CONFIG_DEFAULT_ip-full=y
+          #CONFIG_DEFAULT_ip-full=y
           CONFIG_DEFAULT_iperf3=y
           CONFIG_DEFAULT_ipset=y
           CONFIG_DEFAULT_iptables=y
