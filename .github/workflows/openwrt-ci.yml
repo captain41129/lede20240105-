@@ -8,8 +8,9 @@
 name: OpenWrt-CI1
 
 on:
-  #schedule:
-  #  - cron: 0 20 * * *
+  push:
+    branches: 
+      - master
 
 permissions:
   contents: read
